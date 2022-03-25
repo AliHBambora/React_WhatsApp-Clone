@@ -1,0 +1,27 @@
+.dashboard{
+    flex:0.65;
+    display: grid;
+    place-items: center;
+}
+
+.dashboard__container{
+    padding-bottom: 15px;
+    border-bottom: 0.5px solid lightgray;
+}
+
+.dashboard__container > img{
+    height:300px;
+    object-fit: contain;
+}
+
+.dashboard__container > h2{
+     margin-top: 5px;
+     font-weight: 300;
+     text-align: center;
+}
+
+.dashboard__container > p{
+    font-weight: 200;
+    text-align: center;
+    margin-top: 5px;
+}

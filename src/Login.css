@@ -1,0 +1,33 @@
+.login{
+    height: 100vh;
+    width:100vw;
+    background: #f8f8f8;
+    display: grid;
+    place-items: center;
+}
+
+.login__container{
+    background: #ffffff;
+    text-align: center;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    padding: 80px;
+    border-radius: 10px;
+    /* width: 60vw; */
+}
+
+.login__container >img{
+    height: 150px;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+.login__container >h3{
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.login__container > Button{
+    background: #00bfa5 !important;
+    text-transform: inherit;
+}

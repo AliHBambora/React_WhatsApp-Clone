@@ -1,0 +1,70 @@
+.chat{
+    flex:0.65;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat__header{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ebebeb;
+    background: #ededed;
+}
+
+.chat__header--info{
+    flex:1;
+    padding-left:15px;
+
+}
+
+.chat__header--info > p{
+    line-height: 20px;
+    font-size: 13px;
+    color: #00000099;
+}
+
+.chat__header--info > h4{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    color:#000;
+}
+
+.chat__body{
+    flex: 1;
+    background: url(https://cdn.wallpapersafari.com/54/0/HluF7g.jpg);
+    background-repeat: repeat;
+    padding: 20px;
+    overflow: scroll;
+}
+
+.chat__body::-webkit-scrollbar {
+    display: none;
+  }
+
+.chat__footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f0f0f0;
+}
+
+.chat__footer >form{
+    display: flex;
+    flex:1;
+}
+
+.chat__footer >form>input{
+    width: 100%;
+    padding:5px;
+    border: none;
+    background: #ffffff;
+    border-radius: 21px;
+    outline: none;
+}
+
+.chat__footer >form>button{
+    display: none;
+}

@@ -1,0 +1,35 @@
+.message{
+    display: flex;
+    background: #ffffff;
+    width: fit-content;
+    padding:6px 7px 8px 9px;
+    border-radius: 25px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.receiver{
+    background:#dcf8c6;
+    margin-left: auto;
+}
+
+.message_senderName{
+    position: absolute;
+    top: -15px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.message__body{
+    color: #303030;
+    font-size: 14.2px;
+    line-height: 19px;
+    margin-right:10px;
+}
+
+.message__time{
+    font-size:xx-small;
+    line-height: 15px;
+    white-space: nowrap;
+    margin-top: 5px;
+}
